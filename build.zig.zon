@@ -1,0 +1,17 @@
+.{
+    .name = "zkey",
+    .version = "0.1.0",
+
+    .dependencies = .{
+        .Zeys = .{
+            .url = "https://github.com/SuSonicTH/Zeys/archive/6bc2e32c813615a18976614ab709fb00722525f7.tar.gz",
+            .hash = "122029f5bc933b38dcbce19b3c04dad10ea89e42c61ddf2bbd330193b8157d43b909",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
